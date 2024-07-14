@@ -1,2 +1,2 @@
-var body = $response.body.replace(/"integral":0/g,'"integral":1000000')
+var body = $response.body.replace(/"integral":/g,'"integral":200000')
 $done({ body });
