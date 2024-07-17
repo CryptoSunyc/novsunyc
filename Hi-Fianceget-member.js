@@ -1,2 +1,2 @@
-var body = $response.body.replace(/nickname":"CryptoSunyc"/g,'nickname":"已解锁"')
+var body = $response.body.replace(/"number":"30"/g,'"number":"3000"')
 $done({ body });
